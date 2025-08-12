@@ -1,0 +1,97 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    overflow: hidden;
+}
+
+header{
+    background-color: rgb(255, 254, 254);
+    color: #f80000;
+    padding: -15px 0;
+    text-align: center;
+}
+
+.H1{
+    font-size: 43px;
+    margin: 0;
+    color: #3705ff;
+    position: absolute;
+    left: 199px;
+    top: 19px;
+}
+.H2{
+     background-image: url('/Images/bgg.jpg');
+    background-repeat: no-repeat;
+    height: 98px;
+    width: 145px;
+    position: relative;
+    right:-27px;
+    top: 0px;
+    background-size: cover;
+}
+
+.p1{
+   font-size: 24px;
+    color: Red;
+    position: absolute;
+    right: 869px;
+    top: 48px;
+}
+
+.a1{
+    background-image: url('Images/kits.webp');
+    background-size: cover;
+    height: 100px;  
+    position: absolute;
+    right: 470px;
+    top: 95px;
+    text-decoration: none;
+    color: #f80000;
+    font-size: 26px;
+    font-family: 'Arial-Black', sans-serif;
+}
+
+.Search {
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.search_box {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #fb0000;
+    border-radius: 11px;
+    font-size: 19px;
+}
+
+.SearchImg{
+    background-image: url(Images/Search.jpg);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    top: 20px;
+    left: 15px;
+}
+
+.productcon{
+    display:flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.product{
+    flex: 1 1 calc(25% - 20px);
+    box-sizing: border-box;
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.product img {
+    max-width: 100%;
+    height: 135px;
+}
